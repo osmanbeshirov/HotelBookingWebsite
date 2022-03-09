@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    height: auto;
+    padding: 2.778vw 5.556vw 4.375vw 5.556vw;
+}
+
+@media only screen and (max-width:834px){
+    
+}
