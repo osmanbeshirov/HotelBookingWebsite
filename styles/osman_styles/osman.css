@@ -1,0 +1,97 @@
+#second-section .second-section {
+  margin: 8.333vw 0;
+  font-family: "Open Sans", sans-serif;
+}
+#second-section .second-section .heading {
+  font-weight: 600;
+  font-size: 2.778vw;
+  line-height: 3.472vw;
+  margin-bottom: 1.111vw;
+}
+#second-section .second-section .parentbutton {
+  display: flex;
+  justify-content: space-between;
+}
+#second-section .second-section .parentbutton .explanation {
+  font-size: 1.111vw;
+  line-height: 1.944vw;
+  width: 42.014vw;
+  height: 3.889vw;
+  color: #555555;
+}
+#second-section .second-section .parentbutton .view {
+  width: 7.569vw;
+  height: 2.361vw;
+  background-color: #fff;
+  border: none;
+  border-radius: 10px;
+}
+#second-section .second-section .parentbutton .view a {
+  font-size: 1.111vw;
+  line-height: 1.944vw;
+  color: #3771c8;
+}
+#second-section .second-section .parentbutton .view:hover {
+  background-color: #3771c8;
+  transition: 2s;
+}
+#second-section .second-section .parentbutton a:hover {
+  color: #fff;
+}
+#second-section .second-section .services {
+  display: flex;
+  margin-top: 2.778vw;
+}
+#second-section .second-section .services .service {
+  width: 21.389vw;
+  height: 22.222vw;
+  margin-right: 1.111vw;
+  padding: 2.5vw 0.625vw 3.472vw 1.458vw;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.04);
+  border-radius: 8px;
+}
+#second-section .second-section .services .service .header-service {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2.917vw;
+}
+#second-section .second-section .services .service .header-service img {
+  width: 4.722vw;
+  height: 4.722vw;
+}
+#second-section .second-section .services .service .footer-service {
+  text-align: center;
+}
+#second-section .second-section .services .service .footer-service .title {
+  font-size: 1.389vw;
+  line-height: 1.944vw;
+  margin-bottom: 0.833vw;
+}
+#second-section .second-section .services .service .footer-service .text {
+  width: 19.306vw;
+  height: 5.833vw;
+  font-size: 1.111vw;
+  line-height: 1.944vw;
+  color: #666666;
+}
+
+#third-section .third-section {
+  margin-top: 8.333vw;
+  display: flex;
+  font-family: "Open Sans", sans-serif;
+}
+#third-section .third-section .left {
+  width: 43.611vw;
+  height: 36.111vw;
+  margin-right: 4.167vw;
+}
+#third-section .third-section .right h2 {
+  font-weight: 600;
+  font-size: 2.778vw;
+  line-height: 3.472vw;
+  color: #222222;
+  width: 29.097vw;
+  height: 6.944vw;
+}
+
+/*# sourceMappingURL=osman.css.map */
