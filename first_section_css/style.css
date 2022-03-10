@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+#first-section {
+  font-family: "Open Sans", sans-serif;
+  margin-top: 6.944vw;
+}
+#first-section .section-header {
+  display: flex;
+  justify-content: space-between;
+}
+#first-section .section-header .left {
+  margin-right: 9.306vw;
+}
+#first-section .section-header .left h1 {
+  font-weight: 600;
+  font-size: 4.167vw;
+  line-height: 5.556vw;
+  width: 44.861vw;
+  height: 11.111vw;
+}
+#first-section .section-header .left p {
+  margin-top: 2.083vw;
+  font-weight: 400;
+  font-size: 1.389vw;
+  line-height: 2.222vw;
+  width: 33.056vw;
+  height: 4.444vw;
+}
+#first-section .section-header .right {
+  box-shadow: 0px 22px 38px rgba(0, 34, 19, 0.04);
+  border-radius: 1.389vw;
+}
+#first-section .section-header .right .header .d-flex {
+  display: flex;
+}
+#first-section .section-header .right .header input {
+  border: none;
+  background: #fafafa;
+  border-radius: 0.556vw;
+  width: 15.139vw;
+  box-sizing: border-box;
+  height: 3.889vw;
+  color: #222;
+  font-weight: 400;
+  font-size: 1.667vw;
+  line-height: 2.222vw;
+}
+#first-section .section-header .right .header ::placeholder {
+  color: #222;
+  opacity: 1;
+  /* Firefox */
+}
+#first-section .section-header .right .header .date {
+  position: relative;
+  margin-right: 1.667vw;
+}
+#first-section .section-header .right .header .date #date {
+  padding: 0.833vw 2.778vw 0.833vw 3.750vw;
+}
+#first-section .section-header .right .header .date img {
+  position: absolute;
+  top: 1.250vw;
+  left: 1.597vw;
+}
+#first-section .section-header .right .header .guest {
+  position: relative;
+}
+#first-section .section-header .right .header .guest #guest {
+  padding: 0.833vw 4.583vw 0.833vw 1.389vw;
+}
+#first-section .section-header .right .header .guest img {
+  position: absolute;
+  top: 1.111vw;
+  left: 1.806vw;
+}
+#first-section .section-header .right .header .guest span {
+  line-height: 2.222vw;
+  color: #222;
+  font-weight: 400;
+  font-size: 1.667vw;
+  position: absolute;
+  top: 0.833vw;
+  right: 4.583vw;
+}
+#first-section .section-header .right .search {
+  position: relative;
+  margin-top: 2.778vw;
+  width: 31.944vw;
+  height: 3.889vw;
+}
+#first-section .section-header .right .search #search {
+  width: 31.944vw;
+  height: 3.889vw;
+  padding: 0.833vw  16.667vw  0.833vw  3.750vw;
+}
+#first-section .section-header .right .search .loc {
+  position: absolute;
+  top: 1.111vw;
+  left: 1.667vw;
+}
+#first-section .section-header .right .search .search-icon-loc {
+  background: #3771C8;
+  border-radius: 0.556vw;
+  width: 3.889vw;
+  height: 3.889vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+#first-section .carousel {
+  display: flex;
+  margin-top: 2.917vw;
+  justify-content: space-between;
+  margin-right: 0px;
+}
+#first-section .carousel .lweft {
+  position: relative;
+  background-image: url("/images/first_section/one.jfif");
+  background-size: cover;
+  width: 66.389vw;
+  height: 40.972vw;
+  border-radius: 1.111vw;
+  margin-right: 1.111vw;
+}
+#first-section .carousel .lweft p {
+  position: absolute;
+  font-weight: 600;
+  font-size: 3.333vw;
+  left: 12.778vw;
+  color: white;
+  bottom: 3.542vw;
+  line-height: 4.167vw;
+}
+#first-section .carousel .rwight .two {
+  width: 21.389vw;
+  height: 19.931vw;
+  background: url("/images/first_section/two.jfif");
+  background-size: cover;
+  border-radius: 16px;
+}
+#first-section .carousel .rwight .three {
+  width: 21.389vw;
+  height: 19.931vw;
+  background: url("/images/first_section/three.jfif");
+  background-size: cover;
+  margin-top: 1.111vw;
+  border-radius: 1.111vw;
+}
+
+/*# sourceMappingURL=style.css.map */

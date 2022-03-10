@@ -1,3 +1,5 @@
+@import url("Header Css/style.css"); 
+@import url("first_section_css/style.css");
 * {
     margin: 0;
     padding: 0;
