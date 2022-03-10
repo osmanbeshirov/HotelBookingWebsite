@@ -7,14 +7,14 @@
   display: flex;
   border-radius: 12px;
 }
-#fifth-section .main .left img{
-    width: 44.44vw;
-    height: 27.78vw;
+#fifth-section .main .left img {
+  width: 44.44vw;
+  height: 27.78vw;
 }
 
-#fifth-section .main .right{
-    width: 44.44vw;
-    height: 27.78vw;
+#fifth-section .main .right {
+  width: 44.44vw;
+  height: 27.78vw;
 }
 #fifth-section .main .right img {
   margin: 2.9166vw 20.069444444444446vw 0;
@@ -31,19 +31,19 @@
   font-size: 1.112vw;
   color: #555555;
 }
-#fifth-section .main .right p{
-    margin: 1.59722vw auto 0;
-width: 34.5836vw;
-height: 10vw;
-font-family: "Open Sans";
-font-style: italic;
-font-weight: 300;
-font-size: 2.0833vw;
-line-height: 2.5vw;
-color: #222222;
+#fifth-section .main .right p {
+  margin: 1.59722vw auto 0;
+  width: 34.5836vw;
+  height: 10vw;
+  font-family: "Open Sans";
+  font-style: italic;
+  font-weight: 300;
+  font-size: 2.0833vw;
+  line-height: 2.5vw;
+  color: #222222;
 }
-  #fifth-section .main .right .line{
-      margin: 3.0554vw auto 0 ;
-      width: 2.0833vw;
-    border: 0.1389vw solid #3771C8;
-  }
+#fifth-section .main .right .line {
+  margin: 3.0554vw auto 0;
+  width: 2.0833vw;
+  border: 0.1389vw solid #3771c8;
+}
