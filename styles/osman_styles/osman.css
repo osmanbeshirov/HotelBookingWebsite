@@ -81,9 +81,15 @@
   font-family: "Open Sans", sans-serif;
 }
 #third-section .third-section .left {
+  margin-right: 4.167vw;
   width: 43.611vw;
   height: 36.111vw;
-  margin-right: 4.167vw;
+  border-radius: 1.111vw;
+  border-bottom-left-radius: 1.111vw;
+  border-bottom-right-radius: 1.111vw;
+  background-image: url("/images/third_section/home.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 #third-section .third-section .right h2 {
   font-weight: 600;
@@ -92,6 +98,59 @@
   color: #222222;
   width: 29.097vw;
   height: 6.944vw;
+  margin-bottom: 1.389vw;
+}
+#third-section .third-section .right .right-text {
+  font-weight: 400;
+  font-size: 1.111vw;
+  line-height: 1.944vw;
+  color: #555555;
+  width: 40.694vw;
+  height: 7.778vw;
+  padding-right: 30px;
+}
+#third-section .third-section .right .users {
+  display: flex;
+  margin-top: 2.778vw;
+}
+#third-section .third-section .right .users #last-user {
+  margin-right: 0;
+}
+#third-section .third-section .right .users .user {
+  color: #222222;
+  width: 7.431vw;
+  height: 6.250vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 4.167vw;
+}
+#third-section .third-section .right .users .user .header {
+  font-weight: 700;
+  font-size: 2.083vw;
+  line-height: 3.194vw;
+  margin-bottom: 1.111vw;
+}
+#third-section .third-section .right .users .user .content {
+  font-weight: 400;
+  font-size: 1.111vw;
+  line-height: 1.944vw;
+}
+#third-section .third-section .right .explore {
+  width: 11.597vw;
+  height: 3.889vw;
+  padding: 1.111vw 2.222vw;
+  background: #3771C8;
+  border-radius: 8px;
+  border: none;
+  margin-top: 4.167vw;
+}
+#third-section .third-section .right .explore a {
+  font-style: normal;
+  color: #fff;
+  font-weight: 600;
+  font-size: 1.111vw;
+  line-height: 1.667vw;
 }
 
 /*# sourceMappingURL=osman.css.map */

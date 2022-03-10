@@ -70,6 +70,7 @@
 
             .footer-service {
                 text-align: center;
+
                 .title {
                     font-size: 1.389vw;
                     line-height: 1.944vw;
@@ -94,16 +95,18 @@
     display: flex;
     font-family: "Open Sans", sans-serif;
 
-    // .left {
-    //     background-image: url("/images/third_section/home.jpg") no-repat;
-    //     border-radius: 16px;
-    // }
-
     .left {
+        margin-right: 4.167vw;
         width: 43.611vw;
         height: 36.111vw;
-        margin-right: 4.167vw;
+        border-radius: 1.111vw;
+        border-bottom-left-radius: 1.111vw;
+        border-bottom-right-radius: 1.111vw;
+        background-image: url("/images/third_section/home.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
     }
+
 
     .right {
         h2 {
@@ -113,6 +116,69 @@
             color: #222222;
             width: 29.097vw;
             height: 6.944vw;
+            margin-bottom: 1.389vw;
+        }
+
+        .right-text {
+            font-weight: 400;
+            font-size: 1.111vw;
+            line-height: 1.944vw;
+            color: #555555;
+            width: 40.694vw;
+            height: 7.778vw;
+            padding-right: 30px;
+        }
+
+        .users {
+            display: flex;
+            margin-top: 2.778vw;
+
+            #last-user {
+                margin-right: 0;
+            }
+
+            .user {
+                color: #222222;
+                width: 7.431vw;
+                height: 6.250vw;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin-right: 4.167vw;
+
+                .header {
+                    font-weight: 700;
+                    font-size: 2.083vw;
+                    line-height: 3.194vw;
+                    margin-bottom: 1.111vw;
+                }
+
+                .content {
+                    font-weight: 400;
+                    font-size: 1.111vw;
+                    line-height: 1.944vw;
+                }
+
+
+            }
+        }
+
+        .explore {
+            width: 11.597vw;
+            height: 3.889vw;
+            padding: 1.111vw 2.222vw;
+            background: #3771C8;
+            border-radius: 8px;
+            border: none;
+            margin-top: 4.167vw;
+
+            a {
+                font-style: normal;
+                color: #fff;
+                font-weight: 600;
+                font-size: 1.111vw;
+                line-height: 1.667vw;
+            }
         }
     }
 }
