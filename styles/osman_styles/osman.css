@@ -33,9 +33,10 @@
 }
 #second-section .second-section .parentbutton .view:hover {
   background-color: #3771c8;
-  transition: 2s;
+  transition: 1s;
+  cursor: pointer;
 }
-#second-section .second-section .parentbutton a:hover {
+#second-section .second-section .parentbutton .view:hover a {
   color: #fff;
 }
 #second-section .second-section .services {
@@ -119,7 +120,7 @@
 #third-section .third-section .right .users .user {
   color: #222222;
   width: 7.431vw;
-  height: 6.250vw;
+  height: 6.25vw;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -140,17 +141,59 @@
   width: 11.597vw;
   height: 3.889vw;
   padding: 1.111vw 2.222vw;
-  background: #3771C8;
+  background: #3771c8;
   border-radius: 8px;
   border: none;
   margin-top: 4.167vw;
 }
 #third-section .third-section .right .explore a {
-  font-style: normal;
   color: #fff;
   font-weight: 600;
   font-size: 1.111vw;
   line-height: 1.667vw;
+  display: block;
+  margin: auto;
+}
+#third-section .third-section .right .explore:hover {
+  width: 11.660vw;
+  background-color: #fff;
+  border: 1px solid blue;
+  cursor: pointer;
+}
+#third-section .third-section .right .explore:hover a {
+  color: #3771c8;
+  transition: 0.5s;
+}
+
+#fourth-section .fourth-section {
+  width: 76.389vw;
+  height: 6.944vw;
+  display: flex;
+  justify-content: center;
+  margin-top: 6.944vw;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-between;
+}
+#fourth-section .fourth-section .sponsor {
+  width: 10.417vw;
+  height: 6.944vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#fourth-section .fourth-section .sponsor img {
+  width: 7.986vw;
+}
+#fourth-section .fourth-section .sponsor #fourthsponsor_firstcomp {
+  width: 2.263vw;
+  margin-right: 0.358vw;
+}
+#fourth-section .fourth-section .sponsor #fourthsponsor_secondcomp {
+  width: 5.391vw;
+}
+#fourth-section .fourth-section .sponsor #last-sponsor {
+  width: 6.727vw;
 }
 
 /*# sourceMappingURL=osman.css.map */

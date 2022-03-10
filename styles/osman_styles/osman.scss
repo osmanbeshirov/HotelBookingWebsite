@@ -37,12 +37,15 @@
 
         .view:hover {
             background-color: #3771c8;
-            transition: 2s;
+            transition: 1s;
+            cursor: pointer;
         }
 
-        a:hover {
+        .view:hover a{
             color: #fff;
         }
+
+       
     }
 
     .services {
@@ -107,7 +110,6 @@
         background-size: cover;
     }
 
-
     .right {
         h2 {
             font-weight: 600;
@@ -140,7 +142,7 @@
             .user {
                 color: #222222;
                 width: 7.431vw;
-                height: 6.250vw;
+                height: 6.25vw;
                 display: flex;
                 flex-direction: column;
                 align-items: center;
@@ -158,8 +160,6 @@
                     font-size: 1.111vw;
                     line-height: 1.944vw;
                 }
-
-
             }
         }
 
@@ -167,18 +167,70 @@
             width: 11.597vw;
             height: 3.889vw;
             padding: 1.111vw 2.222vw;
-            background: #3771C8;
+            background: #3771c8;
             border-radius: 8px;
             border: none;
             margin-top: 4.167vw;
 
             a {
-                font-style: normal;
                 color: #fff;
                 font-weight: 600;
                 font-size: 1.111vw;
                 line-height: 1.667vw;
+                display: block;
+                margin: auto;
             }
+        }
+
+        .explore:hover{
+            width: 11.660vw;
+            background-color: #fff;
+            border: 1px solid blue;
+            cursor: pointer;
+           
+            
+        }
+        .explore:hover a {
+            color: #3771c8;
+            transition: 0.5s;
+        }
+    }
+}
+
+#fourth-section .fourth-section {
+    width: 76.389vw;
+    height: 6.944vw;
+    display: flex;
+    justify-content: center;
+    // margin: 6.944vw auto 0;
+    margin-top: 6.944vw;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+
+    .sponsor {
+        width: 10.417vw;
+        height: 6.944vw;
+        // margin-right: 6.25vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        img {
+            width: 7.986vw;
+        }
+
+        #fourthsponsor_firstcomp {
+            width: 2.263vw;
+            margin-right: 0.358vw;
+        }
+
+        #fourthsponsor_secondcomp {
+            width: 5.391vw;
+        }
+
+        #last-sponsor {
+            width: 6.727vw;
         }
     }
 }
