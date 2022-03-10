@@ -83,6 +83,7 @@
 #sixth-section .cards .card img {
     width: 28.5416vw;
     height: 22.22vw;
+    border-radius: 16px 16px 0px 0px;
 }
 
 #sixth-section .cards .relative {
