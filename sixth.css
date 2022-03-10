@@ -1,67 +1,71 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700&display=swap");
-
 #sixth-section {
-  font-family: "Open Sans";
+    font-family: "Open Sans";
 }
+
 #sixth-section .header {
-  margin-top: 8.26388vw;
+    margin-top: 8.26388vw;
 }
+
 #sixth-section .header h2 {
-  font-weight: 600;
-  font-size: 2.77vw;
-  line-height: 4.166vw;
-  color: #000000;
+    font-weight: 600;
+    font-size: 2.77vw;
+    line-height: 4.166vw;
+    color: #000000;
 }
 
 #sixth-section .header p {
-  margin-top: 1.38vw;
-  width: 28.4027vw;
-  font-size: 1.11vw;
-  line-height: 1.94vw;
-  color: #555555;
+    margin-top: 1.38vw;
+    width: 28.4027vw;
+    font-size: 1.11vw;
+    line-height: 1.94vw;
+    color: #555555;
 }
 
 #sixth-section .bar {
-  margin-top: 1.38vw;
-  display: flex;
+    margin-top: 1.38vw;
+    display: flex;
 }
+
 #sixth-section .bar .boxes {
-  display: flex;
+    display: flex;
 }
+
 #sixth-section .bar .box {
-  width: 6.94vw;
-  padding: 0.55vw 1.9vw;
-  height: 2.77vw;
-  background: #ffffff;
-  border: 1px solid #e8e8e8;
-  box-sizing: border-box;
-  border-radius: 8px;
-  font-size: 1.11vw;
-  line-height: 1.67vw;
-  color: #555555;
-  text-align: center;
-  margin-right: 2.77vw;
+    padding: 0.55vw 1.7vw;
+    background: #ffffff;
+    border: 0.0694vw solid #e8e8e8;
+    box-sizing: border-box;
+    border-radius: 0.55vw;
+    font-size: 1.11vw;
+    line-height: 1.66vw;
+    color: #555555;
+    /* text-align: center; */
+    margin-right: 2.77vw;
 }
+
 #sixth-section .bar .border {
-  border: 1px solid #222222;
-  margin-right: 0;
+    border: 0.0694vw solid #222222;
+    margin-right: 0;
 }
+
 #sixth-section .bar .view {
-  margin-left: 35.48611vw;
+    width: 7.5694vw;
+    height: 2.3611vw;
+    margin-left: 35.48611vw;
 }
+
 #sixth-section .bar .view p {
-    width: 4.0277vw;
-    height: 1.94vw;
     margin-left: 1.73612vw;
-  font-size: 1.11vw;
-  line-height: 1.94vw;
-  color: #3771c8;
+    font-size: 1.11vw;
+    line-height: 1.94vw;
+    color: #3771c8;
 }
+
 #sixth-section .bar .view .line {
     width: 7.56944vw;
     height: 0.4167vw;
-  border: 1px solid #f9d15c;
-  box-sizing: border-box;
-  border-radius: 280px;
+    border: 0.06944vw solid #f9d15c;
+    box-sizing: border-box;
+    border-radius: 19.44vw;
 }
-#sixth-section;
