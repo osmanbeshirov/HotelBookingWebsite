@@ -69,3 +69,70 @@
     box-sizing: border-box;
     border-radius: 19.44vw;
 }
+
+#sixth-section .cards {
+    margin-top: 2.7vw;
+    display: flex;
+    width: 28.8194vw;
+}
+
+#sixth-section .cards .card {
+    margin-right: 1.944vw;
+}
+
+#sixth-section .cards .card img {
+    width: 28.5416vw;
+    height: 22.22vw;
+}
+
+#sixth-section .cards .relative {
+    margin-top: 1.38vw;
+    position: relative;
+}
+
+#sixth-section .cards h2 {
+    height: 2.083vw;
+    font-weight: 600;
+    font-size: 1.38vw;
+    line-height: 150%;
+    color: #222222;
+}
+
+#sixth-section .cards .relative p {
+    margin-top: 0.56vw;
+    font-weight: 400;
+    font-size: 0.972vw;
+    line-height: 171%;
+    color: #555555;
+}
+
+#sixth-section .cards .relative .price {
+    position: absolute;
+    top: 7.84722vw;
+}
+
+#sixth-section .cards .relative .price p {
+    font-size: 1.12vw;
+    line-height: 100%;
+}
+
+#sixth-section .cards .relative .price p span {
+    font-size: 1.67vw;
+    font-weight: 600;
+    color: #3771C8;
+}
+
+#sixth-section .cards .relative .details {
+    position: absolute;
+    width: 5.3472vw;
+    height: 2.0833vw;
+    padding: 0.56vw 1.0416vw 0.138vw;
+    top: 7.84722vw;
+    left: 21.5277vw;
+    background: #3771C8;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 0.9722vw;
+    line-height: 143%;
+    color: #FFFFFF;
+}
