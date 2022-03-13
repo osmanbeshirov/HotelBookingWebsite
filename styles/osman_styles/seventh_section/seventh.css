@@ -58,6 +58,7 @@
   font-size: 1.111vw;
   line-height: 1.667vw;
   text-align: center;
+  cursor: pointer;
 }
 #seventh-section .seventh-section .right {
   width: 100%;
