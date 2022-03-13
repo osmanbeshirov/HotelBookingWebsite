@@ -4,42 +4,56 @@
   display: flex;
   margin-left: 7.3611vw;
 }
+
 #footer .left {
   width: 18.33vw;
   height: 12.77vw;
 }
+
 #footer .left img {
   width: 6.3027vw;
   height: 2.77vw;
 }
+
 #footer .left p {
   margin-top: 1.67vw;
   font-size: 1.11vw;
   line-height: 150%;
   color: #555555;
 }
+
 #footer .left .social {
   display: flex;
   margin-top: 2.22vw;
 }
+
 #footer .left .social img {
   width: 1.11vw;
   height: 1.11vw;
   margin-right: 2.083vw;
 }
+
 #footer .right td,
 th {
   padding-left: 11.5279vw;
   color: #222222;
 }
+
 #footer .right th {
   padding-bottom: 1.67vw;
   font-weight: 400;
-font-size: 1.67vw;
-line-height: 133%;
+  font-size: 1.67vw;
+  line-height: 133%;
 }
+
 #footer .right td {
   padding-bottom: 1.11vw;
   font-size: 1.11vw;
-line-height: 150%;
+  line-height: 150%;
+
+
+}
+
+#footer .right td a {
+  color: #222222;
 }
