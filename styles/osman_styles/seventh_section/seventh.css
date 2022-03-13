@@ -1,0 +1,77 @@
+#seventh-section .seventh-section {
+  font-family: "Open Sans", sans-serif;
+  width: 88.899vw;
+  height: 31.25vw;
+  background: #eaeceb;
+  border-radius: 1.111vw;
+  margin-top: 13.333vw;
+  display: flex;
+  justify-content: space-between;
+}
+#seventh-section .seventh-section .left {
+  padding: 4.167vw 0 4.583vw 5.139vw;
+}
+#seventh-section .seventh-section .left .header {
+  width: 48.681vw;
+  height: 6.944vw;
+  font-weight: 600;
+  font-size: 2.778vw;
+  line-height: 3.472vw;
+  color: #222222;
+  margin-bottom: 1.389vw;
+}
+#seventh-section .seventh-section .left .content {
+  width: 37.222vw;
+  height: 3.889vw;
+  font-weight: 400;
+  font-size: 1.111vw;
+  line-height: 1.944vw;
+  color: #555555;
+}
+#seventh-section .seventh-section .left .footer {
+  margin-top: 6.389vw;
+  width: 33.75vw;
+  height: 3.889vw;
+  background: #ffffff;
+  border-radius: 3.472vw;
+  display: flex;
+  position: relative;
+}
+#seventh-section .seventh-section .left .footer input {
+  width: 100%;
+  height: 100%;
+  border-radius: 3.472vw;
+  border: none;
+  padding-left: 1.806vw;
+}
+#seventh-section .seventh-section .left .footer button {
+  width: 9.722vw;
+  height: 3.889vw;
+  position: absolute;
+  top: 0;
+  right: 0px;
+  border-radius: 3.472vw;
+  border: none;
+  background: #3771c8;
+  color: #fff;
+  font-weight: 600;
+  font-size: 1.111vw;
+  line-height: 1.667vw;
+  text-align: center;
+}
+#seventh-section .seventh-section .right {
+  width: 100%;
+  height: 31.25vw;
+}
+#seventh-section .seventh-section .right .person {
+  width: 26.608vw;
+  height: 31.25vw;
+  background-image: url("/images/seventh_section/person.jpg");
+  border-radius: 0px 0.833vw 0.833vw 0px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+  margin-left: 8.433vw;
+}
+
+/*# sourceMappingURL=seventh.css.map */
