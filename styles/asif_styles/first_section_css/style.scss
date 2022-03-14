@@ -52,37 +52,41 @@
       }
       .date {
           position: relative;
-        margin-right: 1.667vw;
+          margin-right: 1.667vw;
         #date {
           padding: 0.833vw 2.778vw 0.833vw 3.750vw;
+          ::placeholder {
+            color: #222;
+            font-size: 1.667vw;
+            opacity: 1; /* Firefox */
+          }
          
         }
         img{
             position: absolute;       
           top: 1.250vw;
           left: 1.597vw;
+          width: 1.667vw;
+          height: 1.667vw;  
         }
       }
       .guest {
           position: relative;
         #guest {
-          padding:0.833vw 4.583vw 0.833vw 1.389vw;
+          padding:0.833vw 4.583vw 0.833vw 3.750vw;
          
         }
         img{
             position: absolute;
             top: 1.111vw;
             left: 1.806vw;
-        }
-        span{
-           
-            line-height: 2.222vw;
-            color: #222;
-            font-weight: 400;
-            font-size: 1.667vw;
-            position: absolute;
-            top: 0.833vw;
-            right:4.583vw;
+            width: 1.667vw;
+            height: 1.667vw;       
+           }
+        ::placeholder {
+          color: #222;
+          font-size: 1.667vw;
+          opacity: 1; /* Firefox */
         }
 
       }
@@ -97,11 +101,18 @@
           width:31.944vw;
           height: 3.889vw;
             padding:0.833vw  16.667vw  0.833vw  3.750vw;
+            ::placeholder {
+              color: #222;
+              font-size: 1.667vw;
+              opacity: 1; /* Firefox */
+            }
         }
         .loc{
             position: absolute;
             top: 1.111vw;
             left:1.667vw;
+            width: 1.667vw;
+            height: 1.667vw;  
         }
         .search-icon-loc{
             background: #3771C8;
@@ -114,6 +125,10 @@
             position: absolute;
             right: 0;
             top: 0;
+            img{
+              width: 1.319vw;
+              height: 1.319vw;
+            }
         }
     }
   
@@ -149,18 +164,27 @@ line-height: 4.167vw;
         .two{
           width: 21.389vw;
           height: 19.931vw;
-          background: url("/images/first_section/two.jfif");
           background-size: cover;
         
-          border-radius: 16px;
+          border-radius:1.111vw;
+          img{
+            width: 21.389vw;
+            height: 19.931vw;
+            border-radius:1.111vw;
+          }
         } 
+
         .three{
           width: 21.389vw;
           height: 19.931vw;
-          background: url("/images/first_section/three.jfif");
          background-size: cover;
           margin-top:1.111vw;
           border-radius:1.111vw;
+          img{
+            width: 21.389vw;
+            height: 19.931vw;
+            border-radius:1.111vw;
+          }
         }
       }
   }
