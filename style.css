@@ -1,11 +1,11 @@
 
-@import url("/styles/asif_styles/Header Css/style.css");
-@import url("/styles/asif_styles/first_section_css/style.css");
-@import url("/styles/osman_styles/osman.css");
-@import url("/styles/farid_styles/fifth.css");
-@import url("/styles/farid_styles/sixth.css");
-@import url("/styles/osman_styles/seventh_section/seventh.css");
-@import url("/styles/farid_styles/footer.css");
+@import url("styles/asif_styles/Header Css/style.css");
+@import url("styles/asif_styles/first_section_css/style.css");
+@import url("styles/osman_styles/osman.css");
+@import url("styles/farid_styles/fifth.css");
+@import url("styles/farid_styles/sixth.css");
+@import url("styles/osman_styles/seventh_section/seventh.css");
+@import url("styles/farid_styles/footer.css");
 
 * {
     margin: 0;
